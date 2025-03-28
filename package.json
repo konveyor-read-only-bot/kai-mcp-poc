@@ -1,0 +1,29 @@
+{
+  "name": "kai-mcp-poc",
+  "version": "0.0.1",
+  "description": "Kai MCP POC",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/pranavgaikwad/kai-mcp-poc"
+  },
+  "keywords": [
+    "mcp",
+    "kai",
+    "konveyor"
+  ],
+  "author": "pgaikwad@redhat.com",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14"
+  }
+}
