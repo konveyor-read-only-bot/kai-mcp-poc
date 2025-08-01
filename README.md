@@ -1,6 +1,6 @@
 # Kai MCP POC
 
-This is a MCP server providing prompts and tools for Konveyor AI related capabilities.
+This is a MCP server providing prompts and tools for Konveyor AI (Kai) related capabilities. 
 
 ## Build
 
@@ -42,4 +42,3 @@ mcpServers:
       - -y
       - <full_path_to_the_base_dir>/dist/index.js
 ```
-
